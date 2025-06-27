@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Boxicons -->
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./styles.css">
+    <title>Conversor de Moeda</title>
+</head>
+
+<body>
+    <h1>Conversor de Moeda</h1>
+
+    <main>
+        <section class="top-box">
+            <label>
+                <p>Converter <span>De</span></p>
+
+                <div class="select-box">
+                    <img src="./img/BRL.png" alt="Imagem-da-moeda-BRL">
+
+                    <select class="currency-from">
+                        <option value="BRL">Real Brasileiro</option>
+                    </select>
+                </div>
+
+                <p class="converted-from-value">0</p>
+            </label>
+
+            <div class="arrow">
+                <i class='bxr  bx-arrow-right-stroke'></i>
+            </div>
+
+            <label>
+                <p>Converter <span>Para</span></p>
+
+                <div class="select-box">
+                    <img class="currency-to-image" src="./img/USD.png" alt="Imagem-da-moeda-USD">
+
+                    <select class="currency-to">
+                        <option value="USD">Dólar Americano</option>
+                        <option value="EUR">Euro</option>
+                        <option value="GBP">Libra</option>
+                        <option value="BTC">Bitcoin</option>
+                    </select>
+                </div>
+
+                <p class="converted-to-value">0</p>
+            </label>
+        </section>
+
+        <section class="bottom-box">
+            <label for="value">
+                <p>Valor</p>
+
+                <input type="number" id="value" placeholder="Digite o valor">
+            </label>
+
+            <button class="button-convert">Converter</button>
+        </section>
+    </main>
+
+    <script src="./scripts.js"></script>
+</body>
+
+</html>

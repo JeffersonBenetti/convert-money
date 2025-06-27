@@ -1,0 +1,140 @@
+:root {
+    --text-color: #cfc8c8;
+    --bg: #020024;
+    --border: 1px solid #494848;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    outline: none;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: var(--bg);
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    color: var(--text-color);
+    font-size: 3.75rem;
+    margin-bottom: 50px;
+    text-shadow: 0px 10px 3px #000;
+    flex-wrap: wrap;
+}
+
+main {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+section {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section label {
+    width: 100%;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+section label p {
+    font-size: 1rem;
+    color: var(--text-color);
+}
+
+section label p span {
+    font-weight: bold;
+}
+
+section label .select-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+section label .select-box select {
+    width: 100%;
+    max-width: 200px;
+    min-width: 140px;
+    padding: 8px;
+    border: var(--border);
+    border-radius: 5px;
+    background: var(--bg);
+    color: var(--text-color);
+    appearance: none;
+}
+
+.arrow {
+    color: var(--text-color);
+    font-size: 2rem;
+}
+
+.bottom-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 1rem;
+}
+
+.bottom-box label{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.bottom-box label input {
+    width: 100%;
+    max-width: 400px;
+    height: 50px;
+    border: var(--border);
+    border-radius: 5px;
+    background: var(--bg);
+    padding-left: 20px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: var(--text-color);
+}
+
+.bottom-box button {
+    background: var(--bg);
+    font-size: 1rem;
+    color: var(--text-color);
+    padding: 10px 20px;
+    border: none;
+    border: var(--border);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bottom-box button:active {
+    letter-spacing: 1px;
+    opacity: 0.8;
+    transition: all 0.1s ease-in-out;
+}
