@@ -30,7 +30,9 @@ Este é um projeto simples de conversor de moedas desenvolvido com **HTML**, **C
   </div>
 
 ## 🔗 Link do projeto
-[🔗 Clique aqui para ver o projeto online (se estiver hospedado)](#)
+  <div>
+    <a href="https://convertmoney-jb.netlify.app/">Clique Aqui</a>
+  </div>
 
 ---
 
