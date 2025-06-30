@@ -1,23 +1,40 @@
-# 💱 Conversor de Moedas
+## 💱 Conversor de Moedas
 
-Este é um projeto simples de conversor de moedas desenvolvido com **HTML**, **CSS** e **JavaScript** puro, utilizando a **API da AwesomeAPI** para obter as cotações atualizadas em tempo real.
+Este é um projeto de conversor de moedas feito com **HTML**, **CSS** e **JavaScript**, utilizando a API da [AwesomeAPI](https://docs.awesomeapi.com.br/) para obter as taxas de câmbio em tempo real.
 
-## 🚀 Funcionalidades
-- Conversão de **Real (BRL)** para:
-  - Dólar Americano (USD)
+### ✨ Funcionalidades
+
+- Conversão de Real para:
+  - Dólar (USD)
   - Euro (EUR)
   - Libra Esterlina (GBP)
   - Bitcoin (BTC)
-- Atualização automática das taxas de câmbio usando `ask` (preço de compra).
-- Formatação de valores conforme a moeda selecionada.
-- Interface simples e responsiva.
-- Imagem da moeda atualiza de forma dinâmica com base na escolha do usuário.
+- Atualização dinâmica das taxas de câmbio
+- Troca de ícones de bandeira conforme a moeda selecionada
+- Validação de campo de entrada
 
-## 🛠 Tecnologias utilizadas
-- HTML5
-- CSS3
-- JavaScript
-- AwesomeAPI (https://docs.awesomeapi.com.br/)
+### 🧪 Tecnologias utilizadas
+
+- HTML
+- CSS
+- JavaScript (ES6)
+- [AwesomeAPI - Economia](https://docs.awesomeapi.com.br/api-de-moedas)
+
+### 🔐 Sobre a chave da API
+
+Este projeto utiliza uma **chave pública** da AwesomeAPI, disponibilizada diretamente na [documentação oficial](https://docs.awesomeapi.com.br/api-de-moedas).  
+Essa chave **não está vinculada a uma conta pessoal** e pode ser utilizada livremente para fins de teste e aprendizado.
+
+---
+
+### 📁 Como rodar o projeto
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/seu-usuario/nome-do-repo.git
+```
+
+2. Abra o arquivo `index.html` no navegador.
 
 ## Projeto Responsivo:
   <div align-items="center">
